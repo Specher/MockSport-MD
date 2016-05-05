@@ -18,6 +18,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
 }
 
 dependencies {
@@ -26,3 +27,4 @@ dependencies {
     provided 'de.robv.android.xposed:api:81:sources'
     compile 'com.android.support:appcompat-v7:23.3.0'
 }
+
