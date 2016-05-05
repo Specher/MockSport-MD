@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">运动模拟器</string>
+    <string name="xposed_description">模拟摇一摇</string>
+</resources>

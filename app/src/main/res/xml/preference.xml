@@ -1,0 +1,58 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="功能">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="ledong"
+            android:summaryOff="关闭"
+            android:summaryOn="打开"
+            android:title="乐动力自动刷步"/>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="chunyu"
+            android:summaryOff="关闭"
+            android:summaryOn="打开"
+            android:title="春雨计步器自动刷步"/>
+        <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="yuedong"
+        android:summaryOff="关闭"
+        android:summaryOn="打开"
+        android:title="悦动圈自动刷步"/>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="lock"
+            android:summaryOff="关闭"
+            android:summaryOn="锁定加速度传感器，所有摇一摇功能将失效"
+            android:title="锁定步数"/>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="all"
+            android:summaryOff="关闭"
+            android:summaryOn="打开"
+            android:title="全局模拟摇一摇"/>
+        <EditTextPreference
+            android:defaultValue="10"
+            android:inputType="number"
+            android:key="magnification"
+            android:summary="10"
+            android:title="两次摇一摇间隔时间(秒)"/>
+        <Preference
+            android:summary="模拟摇动手机自动刷步，如果不动了请重启该应用"
+            android:title="说明"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="其他">
+
+        <Preference android:title="关于"
+            android:summary="Specher制作，基于蔡小木的源码修改"
+           />
+
+        <Preference android:title="版本"
+            android:summary="1.0.0"
+            >
+
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
