@@ -1,6 +1,6 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <PreferenceCategory android:title="功能">
+    <PreferenceCategory android:title="刷步">
         <CheckBoxPreference
             android:defaultValue="true"
             android:key="ledong"
@@ -19,6 +19,8 @@
         android:summaryOff="关闭"
         android:summaryOn="打开"
         android:title="悦动圈自动刷步"/>
+        </PreferenceCategory>
+    <PreferenceCategory android:title="其他">
         <CheckBoxPreference
             android:defaultValue="false"
             android:key="lock"
