@@ -20,7 +20,7 @@
         android:summaryOn="打开"
         android:title="悦动圈自动刷步"/>
         </PreferenceCategory>
-    <PreferenceCategory android:title="其他">
+    <PreferenceCategory android:title="功能">
         <CheckBoxPreference
             android:defaultValue="false"
             android:key="lock"
